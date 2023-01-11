@@ -7,7 +7,7 @@
 <title>Index JSP</title>
 </head>
 <body>
-	<form action="checkResult" method="get">
+	<form action="checkResult" method="post">
 		Number1:<input type="number" name="n1"><br>
 		Number2:<input type="number" name="n2"><br>
 		<input type="submit" value="click here">

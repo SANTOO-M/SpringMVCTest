@@ -4,9 +4,11 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Display JSP</title>
+<title>Error</title>
 </head>
+
 <body>
-	Result is: ${res}
+	<font color="red">${error}</font>
+	<jsp:include page="/index.jsp"></jsp:include>
 </body>
 </html>
